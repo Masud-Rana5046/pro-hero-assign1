@@ -28,10 +28,17 @@
 
 .nav-content .btn{
     margin: 20px 150px auto;
-    padding: 20px 60px;
+    padding: 20px 40px;
     background-color: #30b868;
     font-size: 20px;
     color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.nav-content .btn:hover{
+    background-color: transparent;
+    color: black;
 }
 .menu ul{
     display: flex;
