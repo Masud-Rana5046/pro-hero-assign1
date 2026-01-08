@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 100px;
+}
+
+.nav-content .logo img{
+    margin: 20px 150px auto;
+}
+
+
+.nav-content .btn{
+    margin: 20px 150px auto;
+    padding: 20px 60px;
+    background-color: #30b868;
+    font-size: 20px;
+    color: #ffffff;
+}
+.menu ul{
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.menu li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+.menu li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
