@@ -87,7 +87,7 @@
 .banner-content .banner-border{
 font-size: 16px;
 background-color: #ffffff;
-width: 210px;
+width: 220px;
 border-radius: 20px;
 margin: 0 auto;
 color: #469165;
@@ -110,6 +110,9 @@ margin-bottom: 20px;
     color: #ffffff;
     line-height: 34px;
     margin-bottom: 10px;
+ }
+ .header-button{
+    margin-top: 20px;
  }
 
  .header-button .btn1{
