@@ -119,6 +119,7 @@ margin-bottom: 20px;
     margin-right: 15px;
     padding: 15px 20px;
     background-color: #30b868;
+    border: none;
     border-radius: 5px;
     font-size: 18px;
     text-transform: capitalize;
@@ -130,17 +131,19 @@ margin-bottom: 20px;
 
  .header-button .btn1:hover{
     background-color: transparent;
-    color: #ffffff;
+    border: 1px solid #30B868;
    
  }
   .header-button .btn1 img{
     vertical-align: middle;
+
   }
  .header-button .btn2{
  margin-right: 15px;
     padding: 15px 20px;
     background-color: transparent;
     border-radius: 5px;
+    border: 1px solid #ffffff;
     font-size: 18px;
     text-transform: capitalize;
     color: #ffffff;
@@ -150,6 +153,7 @@ margin-bottom: 20px;
  }
  .header-button .btn2:hover{
     background-color: #30b868;
+    border: 1px solid #30B868;
  }
 
 #card-container{
