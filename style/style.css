@@ -242,3 +242,43 @@ margin-bottom: 20px;
 vertical-align: -4px;
 margin-right: 5px;
  }
+
+ #early-container{
+    display: flex;
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    margin-bottom: 80px;
+ }
+
+ #early-container .early-section{
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0;
+ }
+ .early-section h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 10px;
+ }
+ .early-section p{
+    font-size: 16px;
+    color: #757575;
+
+ }
+ .early-section .btn{
+    font-size: 18px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: none;
+ }
+ .early-section .btn img{
+    vertical-align: -5px;
+
+ }
+ .early-section .btn:hover{
+    background-color: tomato;
+    color: #ffffff;
+ }
