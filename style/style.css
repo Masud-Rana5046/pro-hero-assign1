@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 
@@ -57,4 +58,33 @@
     text-decoration: none;
     text-transform: capitalize;
     color: black;
+}
+
+#header-content .banner{
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   background-position: center;
+    /* width: 100%; */
+    /* height: 800; */
+   
+    /* text-align: center; */
+
+}
+.banner .banner-content{
+   max-width: 1360px;
+   margin: 0 auto;
+    text-align: center;
+    padding: 80px
+}
+.banner-content .banner-border{
+font-size: 16px;
+background-color: #ffffff;
+width: 210px;
+border-radius: 20px;
+margin: 0 auto;
+color: #469165;
+padding: 10pxgit;
+margin-bottom: 20px;
+
 }
