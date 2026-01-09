@@ -282,3 +282,6 @@ margin-right: 5px;
     background-color: tomato;
     color: #ffffff;
  }
+ #footer-continer{
+    display: flex;
+ }
