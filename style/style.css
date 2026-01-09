@@ -9,10 +9,23 @@
 .wp-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+
+}
+/*Shared style*/
+.btn{
+    margin: 20px 150px auto;
+    padding: 20px 40px;
+    background-color: #30b868;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.btn:hover{
+    background-color: transparent;
+    color: black;
 }
 
 .nav-content{
@@ -27,20 +40,10 @@
 }
 
 
-.nav-content .btn{
-    margin: 20px 150px auto;
-    padding: 20px 40px;
-    background-color: #30b868;
-    font-size: 20px;
-    color: #ffffff;
-    cursor: pointer;
-    font-weight: 600;
 
-}
-.nav-content .btn:hover{
-    background-color: transparent;
-    color: black;
-}
+
+
+
 .menu ul{
     display: flex;
     gap: 50px;
@@ -65,8 +68,8 @@
     background-repeat: no-repeat;
     background-size: 100%;
    background-position: center;
-    /* width: 100%; */
-    /* height: 800; */
+    width: 100%;
+    height: 100%;
    
     /* text-align: center; */
 
@@ -84,7 +87,59 @@ width: 210px;
 border-radius: 20px;
 margin: 0 auto;
 color: #469165;
-padding: 10pxgit;
+padding: 10px;
 margin-bottom: 20px;
 
 }
+.banner-content h2{
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+ .banner-content h2 .banner-heading{
+    color: #30B868;
+ }
+ .banner-content .banner-pra{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 34px;
+    margin-bottom: 20px;
+ }
+
+ .header-button .btn1{
+    margin-right: 15px;
+    padding: 15px 20px;
+    background-color: #30b868;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+     margin-bottom: 80px;
+ }
+
+ .header-button .btn1:hover{
+    background-color: transparent;
+    color: #ffffff;
+   
+ }
+  .header-button .btn1 img{
+    vertical-align: middle;
+  }
+ .header-button .btn2{
+ margin-right: 15px;
+    padding: 15px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+     margin-bottom: 80px;
+ }
+ .header-button .btn2:hover{
+    background-color: #30b868;
+ }
